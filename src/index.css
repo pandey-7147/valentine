@@ -3,22 +3,44 @@
 @tailwind components;
 @tailwind utilities;
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 :root {
-  font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Protest Riot", system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background: url("./assets/bg1.webp");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for transparency */
+
+    background: url("./assets/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background {
+    color: white;
+    background-color: rgb(202, 144, 144);
+    padding: 40px;
+    border-radius: 200px;
+    max-width: 50%;
+}
+
+.background2 {
+    color: white;
+    background-color: rgb(62, 146, 143);
+    padding: 100px;
+    border-radius: 200px;
+    max-width: 50%;
+}
+.button {
+    font-size: 25px;
+    width: 15rem;
 }
